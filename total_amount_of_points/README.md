@@ -31,6 +31,7 @@ def points(games):
 # Solution 2
 
 ```python
+from functools import reduce
 def points(games):
     return reduce(lambda x, y: x + y, map(lambda x: 3 if x[0] > x[1] else 0 if x[0] < x[1] else 1, map(lambda x: x.split(':'), games)))
 ```
@@ -38,7 +39,6 @@ def points(games):
 # Solution 3
 
 ```python
-from functools import reduce
 def points(games):
     return sum(map(lambda x: 3 if x[0] > x[1] else 0 if x[0] < x[1] else 1, map(lambda x: x.split(':'), games)))
 ```
