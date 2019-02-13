@@ -10,7 +10,7 @@ For `a = 6 and b = 4`, the output should be `23`
 
 The following picture illustrates the example, and the 23 points are marked green.
 
-![img](https://raw.githubusercontent.com/serafss2/codewars_python/tree/master/rectangle_rotation/img1.png)
+![img](https://github.com/serafss2/codewars_python/blob/master/rectangle_rotation/img1.png)
 
 ## Input/Output
 
